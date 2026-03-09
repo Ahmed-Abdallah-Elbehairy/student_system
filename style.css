@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.head {
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+input {
+    width: 85%;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: #111;
+    margin: 10px 80px;
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: #fff;
+    transition: 0.2s ;
+}
+
+input:hover {
+    background: #000;
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #6c37d9;
+}
+
+.grade input {
+    width: 23%;
+    margin: 10px 5px;
+}
+
+button {
+    width: 100%;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    background: #7a3cff;
+    border-radius: 20px;
+    transition: 0.4s ;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #5528b9;
+    letter-spacing: 1px;
+    transform: scale(1.03);
+}
+
+#ex {
+    background-color: #28a745;
+    width: 30%;
+    margin: 10px auto;
+}
+
+#ex:hover {
+    background-color: #218838;
+}
+
+.ab {
+    margin: 15px 0;
+}
+
+#aa {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #17a2b8;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+#aa:hover {
+    background: #138496;
+    transform: scale(1.05);
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+table th {
+    text-transform: uppercase;
+    background: #333;
+    padding: 10px;
+}
+
+table td {
+    padding: 12px;
+    background: #181818;
+    border-bottom: 1px solid #333;
+}
+
+table tr:hover td {
+    background: #3a3939;
+    transition: 0.3s;
+}
+
+table button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+}

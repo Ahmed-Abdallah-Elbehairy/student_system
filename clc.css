@@ -1,0 +1,65 @@
+#caluc_contin{
+    display: flex;
+    flex-direction: column;
+    background-color: royalblue;
+    width: fit-content;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+#display_area{
+    background-color: rgb(248, 250, 251);
+    height: 70px;
+    width: 350px;
+    overflow-x: scroll;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+}
+
+.calclator_row{
+    margin: 5px auto;
+}
+
+.calclator_row button{
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgb(4, 24, 4);
+    color: #fff;
+}
+
+.calclator_row button:hover{
+    background-color: rgb(21, 34, 21);
+    cursor: pointer;
+}
+
+body{
+    background-color: #222;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #17a2b8;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 150px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background: #138496;
+    transform: scale(1.05);
+}
